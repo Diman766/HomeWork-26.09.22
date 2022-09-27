@@ -64,7 +64,6 @@ void PrintArray(int[] array)
 PrintArray(GetSumArray(matrix));
 Console.WriteLine();
 
-// int[] a = { 1, 3, 2 };
 int MinRows(int[] array)
 {
     int min = 0;
