@@ -48,3 +48,16 @@ int[,] GetMatrix(int rows, int columns)
     return matrix;
 }
 
+void PrintMatrix(int[,] inputMatrix)
+{
+    for (int i = 0; i < inputMatrix.GetLength(0); i++)
+    {
+        for (int m = 0; m < inputMatrix.GetLength(1); m++)
+        {
+            Console.Write(inputMatrix[i, m] + "\t");
+        }
+        Console.WriteLine();
+    }
+}
+int[,] matrix = GetMatrix(4, 4);
+PrintMatrix(matrix);
